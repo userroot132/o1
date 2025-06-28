@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const path = require('path');
 const fs = require('fs');
 const express = require('express'); // <-- Tambahkan ini
-const bodyParser = require('body-parser'); // <-- Tambahkan ini
+const bodyParser = require('body-parser'); // <-- Tambahkan ini aa
 
 // --- START: Konfigurasi Firebase Admin SDK ---
 const serviceAccountPath = path.resolve(__dirname, './server.json');
