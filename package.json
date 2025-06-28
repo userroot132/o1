@@ -1,0 +1,25 @@
+{
+  "name": "surxrat-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Surxrat Private v1.4 with Firebase and payment integration.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "firebase",
+    "payment",
+    "qris"
+  ],
+  "author": "SisuryaOfficial",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "node-fetch": "^2.6.7",
+    "telegraf": "^4.16.0",
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2"
+  }
+}
